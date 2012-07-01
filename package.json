@@ -1,16 +1,57 @@
-{ "name" : "watch"
-, "description" : "Utilities for watching file trees."
-, "tags" : ["util", "utility", "fs", "files"]
-, "version" : "0.5.1"
-, "homepage": "https://github.com/mikeal/watch"
-, "bugs":
-  { "url": "https://github.com/mikeal/watch/issues" }
-, "repository": { "type": "git"
-  , "url": "git://github.com/mikeal/watch.git"
-  }
-, "author" : "Mikeal Rogers <mikeal.rogers@gmail.com>"
-, "directories" :
-  { "lib" : "lib" }
-, "engines" : ["node >=0.1.95"]
-, "main" : "./main"
+{
+	"name": "crafity-jstest",
+	"description": "Utilities for watching file trees.",
+	"version": "0.0.1",
+	"author": "Bart Riemens <briemens@crafity.com>",
+	"homepage": "https://github.com/Crafity/crafity-watch/wiki",
+	"keywords": [ "util", "utility", "fs", "files" ],
+	"maintainers": [
+		{
+			"name": "Bart Riemens",
+			"email": "briemens@crafity.com",
+			"web": "http://crafity.com/about/bart"
+		},
+		{
+			"name": "Galina Slavova",
+			"email": "galina@crafity.com",
+			"web": "http://crafity.com/about/galina"
+		}
+	],
+	"contributors": [
+		{
+			"author": "Mikeal Rogers",
+			"email": "mikeal.rogers@gmail.com"
+		},
+		{
+			"name": "Bart Riemens",
+			"email": "briemens@crafity.com",
+			"web": "http://crafity.com/about/bart"
+		},
+		{
+			"name": "Galina Slavova",
+			"email": "galina@crafity.com",
+			"web": "http://crafity.com/about/galina"
+		}
+	],
+	"main": "main.js",
+	"directories": {
+		"test": "test"
+	},
+	"licenses": [
+		{
+			"type": "Apache License 2.0",
+			"url": "https://github.com/Crafity/crafity-watch/blob/master/LICENSE"
+		}
+	],
+	"bugs": "https://github.com/Crafity/crafity-watch/issues",
+	"repositories": [
+		{
+			"type": "git",
+			"url": "https://github.com/Crafity/crafity-watch.git"
+		}
+	],
+	"dependencies": {},
+	"engines": {
+		"node": ">=0.1.95"
+	}
 }
